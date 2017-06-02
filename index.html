@@ -1,13 +1,12 @@
-<!DOCTYspanE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<title>【欧泡商城】</title>
 		<link href="css/index.css" rel="stylesheet" tyspane="text/css">  
 		<link href="css/public.css" rel="stylesheet" tyspane="text/css">
-		<script type="text/javascript" src="js/tools.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
 		<script type="text/javascript" src="js/lunbo.js"></script>
-		<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -38,24 +37,24 @@
 			</div>
 		</nav>
 		<article>
-			<<div id="bbox">
-		    	<div id="pics">
-		            <div class="pic"><img src="img/7.jpg"></div>
-		            <div class="pic"><img src="img/6.jpg"></div>
-		        </div>
-		        <div id="nav_list">
-        			<nav id="lists">
-		            	<li class="lis"><a class="tag  bg" href="javascript:void(0)"></a></li>
-		            	<li class="lis"><a class="tag" href="javascript:void(0)"></a></li>
-        			</nav>
-        		</div>
-    		</div>			
+			<div id="box">
+	
+			</div>			
 		</article>
 		<section class="clear">
 			<div id="img0">
-				<a href="http://www.opposhop.cn/products/391.html"><img src="img/2.png"/></a>
-				<a href="http://www.opposhop.cn/products/391.html"><img src="img/3.png" id="img01"/></a>
-				<a href="http://www.oppo.com/cn/photogallary/#1"><img src="img/4.png"/></a>
+				<a href="http://www.opposhop.cn/products/391.html" class="a1">
+					<img src="img/2.png"/>
+					<div class="b1"></div>
+				</a>
+				<a href="http://www.opposhop.cn/products/391.html" class="a2">
+					<img src="img/3.png"/>
+					<div class="b2"></div>
+				</a>
+				<a href="http://www.oppo.com/cn/photogallary/#1" class="a3">
+					<img src="img/4.png"/>
+					<div class="b3"></div>
+				</a>
 			</div>
 		</section>
 		<footer>
@@ -100,10 +99,14 @@
 						<p>关注我们：</p>
 						<ul>
 							<li><a href="#"><img src="img/8.gif"/></a></li>
-							<img src="img/wx.jpg"/ id="p1">
-							<li id="l1"><a href="#"><img src="img/9.gif" id="img02"/></a></li>
-							<img src="img/zfb.jpg" id="p2"/>
-							<li><a href="#"><img src="img/10.gif" id="img03"/></a></li>
+							<li id="l1">
+								<div id="p1"></div>
+								<a href="#"><img src="img/9.gif" id="img02"/></a>
+							</li>
+							<li>
+								<div id="p2"></div>
+								<a href="#"><img src="img/10.gif" id="img03"/></a>
+							</li>
 						</ul>
 					</div>
 				</div>
