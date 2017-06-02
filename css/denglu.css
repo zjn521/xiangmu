@@ -1,0 +1,15 @@
+* {
+  margin: 0 auto; }
+
+header {
+  background: #009b72;
+  height: 30px; }
+  header #tou1 {
+    float: right; }
+    header #tou1 a {
+      font: 14px/30px "";
+      color: #fff;
+      margin: auto 20px;
+      float: left; }
+
+/*# sourceMappingURL=denglu.css.map */
