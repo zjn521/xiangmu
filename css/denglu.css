@@ -1,15 +1,59 @@
 * {
   margin: 0 auto; }
 
+.margin {
+  width: 922px; }
+
 header {
   background: #009b72;
   height: 30px; }
-  header #tou1 {
-    float: right; }
-    header #tou1 a {
-      font: 14px/30px "";
-      color: #fff;
-      margin: auto 20px;
-      float: left; }
+  header ul li {
+    float: left;
+    width: 110px; }
+    header ul li a {
+      font: 700 14px/30px "";
+      color: #fff; }
+
+.logo {
+  width: 320px;
+  text-align: center;
+  margin-top: 110px; }
+  .logo p {
+    font: 14px/58px "";
+    color: #363636; }
+
+#box {
+  width: 320px;
+  text-align: center; }
+  #box input {
+    width: 320px;
+    height: 45px; }
+  #box #btn1 {
+    margin: 44px 0 14px 0; }
+  #box p {
+    padding: 18px 0 30px 0; }
+    #box p a {
+      font: 12px/30px "";
+      color: #2aad6f; }
+  #box #btn {
+    color: #000; }
+  #box #btn:hover {
+    background-color: #2aad6f;
+    color: #fff; }
+  #box #btn3 {
+    margin-top: 16px;
+    color: #000; }
+  #box #btn3:hover {
+    background-color: #2aad6f;
+    color: #fff; }
+
+.foot {
+  height: 38px;
+  text-align: center; }
+  .foot img {
+    padding: 0 10px; }
+  .foot p {
+    text-align: center;
+    margin: 60px 0 26px 0; }
 
 /*# sourceMappingURL=denglu.css.map */

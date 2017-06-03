@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+			用户名：<input id="userName" name="userName" type="text"  /><span id="userMsg"></span><br>
+			密　码：<input id="userPass" name="userPass" type="password"  /><span id="passMsg"></span><br>
+			昵称：<input id="userNick" type="text"  /><span id="nickMsg"></span><br>
+			email：<input id="userEmail" type="text"  /><span id="emailMsg"></span><br>
+			<input type="submit" value="注册" />
+		
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+
+$(function(){
+	$("#userName").blur(function(){
+		$.post("checkUser.php",{user:$("#userName").val()},function(data){
+			if(data=="1"){
+				$("#userMsg").html("此用户名可以使用，赶紧注册吧");
+			}else{
+				$("#userMsg").html("此用户名已存在，请重新选择");
+			}
+		});		
+	});
+});
+	
+</script>

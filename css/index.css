@@ -39,6 +39,30 @@ nav #n {
 article {
   height: 570px;
   background: #fff; }
+  article #box {
+    position: relative;
+    width: 1350px;
+    height: 570px;
+    overflow: hidden; }
+    article #box img {
+      width: 1350px;
+      height: 570px;
+      position: absolute; }
+    article #box ul {
+      position: absolute;
+      right: 635px;
+      bottom: 0px;
+      z-index: 999; }
+      article #box ul li {
+        list-style: none;
+        float: left;
+        margin: 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #363636;
+        text-align: center;
+        background-color: #000f01; }
 
 section #img0 {
   display: flex;

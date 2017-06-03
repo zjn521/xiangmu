@@ -1,0 +1,15 @@
+$(function(){
+	$("#btn3").click(function(){
+		$.post("login.php",{user:$("#btn3").val(),userPass:$("#btn2").val()},function(data){
+			if(data=="true"){
+				//登录成功
+				//存cookie
+				//跳到主页
+			 	location.href="index.html";
+			}else{
+				//登录失败
+				alert("亲，登录失败，用户名或者密码错了");
+			}
+		});		
+	});
+});
